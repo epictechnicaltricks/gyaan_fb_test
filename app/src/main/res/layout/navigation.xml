@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentDBActivity"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:onClick="stu_db"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STUDENT DB"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:onClick="teach_db"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEACHER DB"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"/>
+
+
+            <Button
+                android:onClick="onCourseInsert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="COURSE DB"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"/>
+
+
+            <Button
+                android:onClick="onCourseInsert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BANK DB"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"/>
+
+
+            <Button
+                android:onClick="onCourseInsert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAN DB"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:onClick="onSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search on DB"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

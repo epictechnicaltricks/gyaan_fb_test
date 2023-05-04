@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentDBActivity"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:id="@+id/stu_id_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter stu_id"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <Button
+        android:onClick="onSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student_db Submit"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+         android:onClick="onCourseInsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert course of student"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>
